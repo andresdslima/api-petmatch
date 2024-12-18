@@ -1,4 +1,4 @@
-const db = require("../index");
+const db = require("../../database/index");
 const { DataTypes } = require("sequelize");
 
 const Pets = db.define("pets", {
